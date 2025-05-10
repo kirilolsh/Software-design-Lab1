@@ -46,7 +46,7 @@
 ### 9. Composition Over Inheritance (Композиція замість наслідування)
 Клас `Product` використовує об'єкт `Money`, замість того щоб наслідувати його.
 
-- [Product.php, рядок 5](https://github.com/kirilolsh/Software-design-Lab1/blob/fbc0c9c47e57254e70e83ab01fdb4591fd7a8ccd/Classes/Product.php#L5)
+- [Product.php, рядок 5](./Classes/Product.php#L5)
 
 ### Демонструється:
 - Створення продукту
@@ -56,10 +56,10 @@
 
 
 DRY (Don't Repeat Yourself)
-- Уникаємо дублювання логіки збереження грошей. Уся логіка зберігається в класі [Money.php](./Money.php)
+- Уникаємо дублювання логіки збереження грошей. Уся логіка зберігається в класі [Money.php](./Classes/Money.php)
 
 KISS (Keep It Simple, Stupid)
-- Класи прості та мають єдину відповідальність. Приклад: [Product.php](./Product.php)
+- Класи прості та мають єдину відповідальність. Приклад: [Product.php](./Classes/Product.php)
 
 S - Single Responsibility Principle
 - Кожен клас має свою відповідальність: `Money` для грошей, `Product` для товару, `Warehouse` для складу, `Reporting` для звітів.
